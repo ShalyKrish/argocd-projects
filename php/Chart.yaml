@@ -1,0 +1,39 @@
+annotations:
+  artifacthub.io/changes: |
+    - Added icon to the chart
+  artifacthub.io/images: |
+    - name: PHP 8.0
+      image: qonstrukt/php:8.0-v6-apache
+      platforms:
+        - linux/amd64
+        - linux/arm64
+    - name: PHP 8.1
+      image: qonstrukt/php:8.1-v6-apache
+      platforms:
+        - linux/amd64
+        - linux/arm64
+    - name: PHP 8.2
+      image: qonstrukt/php:8.2-v6-apache
+      platforms:
+        - linux/amd64
+        - linux/arm64
+apiVersion: v2
+appVersion: 8.1-v6-apache
+description: A Helm Chart for a generic PHP application
+home: https://github.com/Qonstrukt/helm-charts/tree/main/charts/php
+icon: https://www.php.net/favicon-196x196.png
+keywords:
+- php
+- apache
+- nginx
+- cli
+- node
+- yarn
+- composer
+maintainers:
+- email: stefan@qonstrukt.nl
+  name: Stefan Moonen
+  url: https://qonstrukt.nl
+name: php
+type: application
+version: 0.1.4
